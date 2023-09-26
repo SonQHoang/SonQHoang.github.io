@@ -69,3 +69,10 @@
         display: none;
     }
 }
+
+.profile-image {
+    height: 100px;
+    width: 100x;
+    margin-left: 800px;
+    margin-bottom: 100px;
+}
