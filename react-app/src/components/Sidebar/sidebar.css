@@ -1,0 +1,42 @@
+.sidebar-container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 35%;
+    box-shadow: rgba(100, 100, 111, .2) 0 7px 29px 0;
+    padding: 0.5rem;
+    background-color: red;
+    height: 250px;
+    align-items: center;
+    justify-content: space-around;
+    width: 50px;
+    background-color: #151c29;
+}
+
+.sidebar-linkedin {
+    background-image: url(https://res.cloudinary.com/dgxpqnbwn/image/upload/v1695683842/icons8-linkedin-a-business-and-employment-oriented-service-mobile-app-96_qyf7qt.png);
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-github {
+    background-image: url(https://res.cloudinary.com/dgxpqnbwn/image/upload/v1695684166/icons8-github-64_c5vnyf.png);
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-email {
+    background-image: url(https://res.cloudinary.com/dgxpqnbwn/image/upload/v1695684288/icons8-email-50_zymqxv.png);
+    background-size: contain;
+    width: 40px;
+    height: 40px
+}

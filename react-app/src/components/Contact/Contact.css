@@ -1,0 +1,123 @@
+.contact-holder {
+    background-color: #151c29;
+    border-radius: 8px;
+    margin: 0 1.25rem;
+}
+
+.my-skills {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.about-me-intro {
+    align-items: flex-start;
+    color: #edf2f4;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    margin: 6rem 6rem 2rem;
+}
+
+.about-me-intro:before,
+.about-me-intro span {
+    -webkait-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(90deg,#9076fc,#6de1e7);
+}
+
+@media (max-width: 900px) {
+    .contact-container {
+        width: 80%;
+    }
+}
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 6rem;
+    margin-top: 2rem;
+    width: 60%;
+}
+
+.social-holder {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.social-title {
+    color: #edf2f4;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.social-desc {
+    color: #edf2f4
+}
+
+.socials-container-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    width: fit-content;
+}
+
+.linkedin {
+    background-image: url(https://res.cloudinary.com/dgxpqnbwn/image/upload/v1695683842/icons8-linkedin-a-business-and-employment-oriented-service-mobile-app-96_qyf7qt.png);
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github {
+    background-image: url(https://res.cloudinary.com/dgxpqnbwn/image/upload/v1695684166/icons8-github-64_c5vnyf.png);
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.email, .linkedin {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 2rem;
+    width: 2rem;
+    margin-top: 10px;
+    /* border: 2px solid red; */
+}
+
+.github {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 3.5rem;
+    width: 3.5rem;
+    /* border: 2px solid red; */
+}
+
+.social-email {
+    color: #edf2f4
+}
